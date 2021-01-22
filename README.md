@@ -1,12 +1,16 @@
 # Reddit Politics Blocker
 
+Hide US Politics posts on Reddit.
+
 ![Reddit Politics Blocker](PoliticsBlockExtensionLite/images/polblock_128.png)
 
-U.S. Politics posts from the election season until now have been mentally exhausting. The Reddit Politics Blocker extension will ease your mind by hiding all US politics posts from Reddit.
+## Description
+U.S. Politics posts from the election season until now have been mentally exhausting. The Reddit Politics Blocker extension will ease your mind by hiding <em>most</em> US politics posts from Reddit. We are working continuously to improve our filtering algorithms.
 
 Currently this extension only works with the old Reddit UI. We have two versions, the Reddit Politics Blocker (with the Reddit Redirector built-in) and the Reddit Politics Blocker Lite (with just politics blocking capabilities). 
 
 ## Download
+
 ### Reddit Politics Blocker (with built in redirecter) <em>(Under Development. To be released soon)</em>
 ### [Reddit Politics Blocker Lite](https://chrome.google.com/webstore/detail/reddit-politics-blocker-l/hfamlllggifbgmknfmfjcbmgiakngeaj)
 
