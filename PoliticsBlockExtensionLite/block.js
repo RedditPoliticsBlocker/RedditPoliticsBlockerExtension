@@ -1,5 +1,5 @@
-var data_url = "";
-//chrome.storage.sync.clear()
+var data_url = "https://rocky-crag-41069.herokuapp.com/filterList/test.json";
+chrome.storage.sync.clear()
 
 async function politicsBlock() {
     // Vars
@@ -30,7 +30,7 @@ async function politicsBlock() {
 async function updateFilterList(denylists, data_url, curr_time) {
     const res = await fetch(data_url);
     var temp = await res.json();
-
+    
     if (denylists == null) {
         denylists = temp;
     } else {
@@ -55,6 +55,7 @@ function filterReddit(denylists) {
     $("#siteTable").children().each(function () {
         var subreddit = $(this)[0].getAttribute("data-subreddit")
         var permalink = $(this)[0].getAttribute("data-permalink")
+        
         if (denylists == null) {
             if (set_subreddit.has(subreddit)) {
                 $(this)[0].remove();
@@ -76,6 +77,12 @@ function filterReddit(denylists) {
         }
     });
     
+    $(".linkflairlabel ").each(function () {
+        var flair = $(this)[0].getAttribute("title");
+        if (flair == "Politics") {
+            $(this).parents()[3].remove(); // 3 layers up
+        }
+    });
     /*
     // Publish Count
     console.log(count.toString());
