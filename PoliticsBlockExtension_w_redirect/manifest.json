@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+
+    "name": "Reddit Politics Blocker",
+    "description": "Politics blocker for Reddit w/ Old Reddit Redirect",
+    "version": "0.0.3",
+    "background": {
+        "scripts": ["thirdParty/jquery-3.5.1.min.js", "background.js"]
+    },
+    "icons": {
+        "16": "images/polblock_16.png",
+        "48": "images/polblock_48.png",
+        "128": "images/polblock_128.png"
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://old.reddit.com/*",
+        "*://reddit.com/*",
+        "*://www.reddit.com/*",
+        "*://np.reddit.com/*",
+        "*://new.reddit.com/*",
+        "*://amp.reddit.com/*",
+        "storage"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["*://*.reddit.com/*"],
+        "js": ["thirdParty/jquery-3.5.1.min.js", "block.js"]
+      }
+    ] 
+}
