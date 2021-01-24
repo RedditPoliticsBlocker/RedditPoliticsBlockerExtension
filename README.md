@@ -25,5 +25,13 @@ Currently this extension only works with the old Reddit UI. We have two versions
         - Use an old.reddit.com redirecter (such as [Old Reddit Redirect](https://chrome.google.com/webstore/detail/old-reddit-redirect/dneaehbmnbhcippjikoajpoabadpodje)).
 
 
+## Support
 
 Please report any issues here in the [issues tab](https://github.com/RedditPoliticsBlocker/RedditPoliticsBlockerExtension/issues) until we can register a subreddit.
+
+## License
+
+Code copyright under the RedditPoliticsBlocker Team. Code released under the MIT License.
+
+
+
