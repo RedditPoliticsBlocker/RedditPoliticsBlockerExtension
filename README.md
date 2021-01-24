@@ -11,12 +11,12 @@ Currently this extension only works with the old Reddit UI. We have two versions
 
 ## Download
 
-### Reddit Politics Blocker (with built in redirecter) <em>(Under Development. To be released soon)</em>
+### [Reddit Politics Blocker (with built in re-director)](https://chrome.google.com/webstore/detail/reddit-politics-blocker/epmdnamcfhhckdoobpddgnhkdjifnbcf)
 ### [Reddit Politics Blocker Lite](https://chrome.google.com/webstore/detail/reddit-politics-blocker-l/hfamlllggifbgmknfmfjcbmgiakngeaj)
 
 ## Instructions
 
-1. To use Reddit Politics Blocker, install the extension and you're good to go. Currently under development for publishing.
+1. To use Reddit Politics Blocker, install the extension and you're good to go. Credit to the [Old Reddit Redirect](https://chrome.google.com/webstore/detail/old-reddit-redirect/dneaehbmnbhcippjikoajpoabadpodje) extension for open-sourcing their implementation.
 
 2. To use Reddit Politics Blocker Lite:
     - Install the Extension
