@@ -31,7 +31,7 @@ Please report any issues here in the [issues tab](https://github.com/RedditPolit
 
 ## License
 
-Code copyright under the RedditPoliticsBlocker Team. Code released under the MIT License.
+Code copyright under the RedditPoliticsBlocker Team. Code released under the [MIT license](LICENSE).
 
 
 
